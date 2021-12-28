@@ -620,6 +620,36 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Fungus.FungusLuaEditor.csproj">
+      <Project>{3061F174-468C-6B03-3403-D5303327AB59}</Project>
+      <Name>Fungus.FungusLuaEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FungusEditor.csproj">
+      <Project>{0B1BE8F7-3C90-BCE1-8181-4174246E8571}</Project>
+      <Name>FungusEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Fungus.LineEndingsEditor.csproj">
+      <Project>{F88269DC-B5C4-7D5A-5066-766BE5DB1D81}</Project>
+      <Name>Fungus.LineEndingsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FungusExamples.csproj">
+      <Project>{D1830D05-1A2D-5608-1386-C39D95D510B1}</Project>
+      <Name>FungusExamples</Name>
+    </ProjectReference>
+    <ProjectReference Include="Fungus.csproj">
+      <Project>{34A7B306-D64C-5DCD-1428-6323645B0532}</Project>
+      <Name>Fungus</Name>
+    </ProjectReference>
+    <ProjectReference Include="Fungus.UsfxrEditor.csproj">
+      <Project>{238085BB-ACE2-13EE-CD4C-8099DB378620}</Project>
+      <Name>Fungus.UsfxrEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Fungus.FungusLuaJSONCheckerEditor.csproj">
+      <Project>{3BA9187C-B377-EBE2-EDEF-6A4A307AC740}</Project>
+      <Name>Fungus.FungusLuaJSONCheckerEditor</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
