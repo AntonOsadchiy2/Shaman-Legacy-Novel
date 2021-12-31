@@ -63,7 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ForCommit.cs" />
+    <Compile Include="Assets\Assets\ForCommit.cs" />
+    <Compile Include="Assets\Assets\MenuController.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/toksk/Shaman Legacy Novel/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
